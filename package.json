@@ -1,0 +1,22 @@
+{
+  "name": "cnabtools",
+  "version": "0.1.0",
+  "description": "This is a colletion of tools for write and read CNAB files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacvitor/cnabtools.git"
+  },
+  "keywords": ["Remessa bancária", "CNAB"],
+  "author": "Isaac Vitor<isaacvitor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacvitor/cnabtools/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
