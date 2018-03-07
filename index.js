@@ -12,3 +12,5 @@ for (var i = 0; i < banksFolders.length; i++) {
 
 exports.banks = banks
 exports.layoutHelpers = layoutHelpers
+
+console.log(banks['001'].layouts.remessa)
