@@ -34,8 +34,8 @@ const layoutParserPart = function (partOfLayout, dataPart) {
       const size = getSizeByPosition(position)
       const complement = part.type.complement
       const rawValue = (part.type.preFormat)
-        ? part.type.preFormat( _s.truncate(item[position], {size, omission:''}) )
-        : _s.truncate(item[position], {size, omission:''})
+        ? part.type.preFormat( _s.truncate(item[position], {'length':size, omission:''}) )
+        : _s.truncate(item[position], {'length':size, omission:''})
       let value = part
         .type
         .order(rawValue, size, complement)
