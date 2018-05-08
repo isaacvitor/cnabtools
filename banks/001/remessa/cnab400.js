@@ -43,8 +43,7 @@ const structure = {
     {position:'101107', type:dataType.n, decription:'SEQUENCIAL DA REMESSA'},
     {position:'108129', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
     {position:'130136', type:dataType.n, decription:'NÚMERO DO CONVÊNIO'},
-    {position:'137394', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
-    //{position:'395400', type:dataType.n, decription:'SEQUENCIAL DO REGISTRO'}
+    {position:'137394', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'}
   ],
 
   detail:[
