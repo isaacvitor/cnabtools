@@ -38,7 +38,7 @@ const structure = {
     {position:'040040', type:dataType.a, decription:'DÍGITO VERIFICADOR DA CONTA CORRENTE'},
     {position:'041046', type:dataType.n, decription:'COMPLEMENTO DE REGISTROS:ZEROS'},
     {position:'047076', type:dataType.a, decription:'NOME DO CEDENTE'},
-    {position:'077094', type:dataType.n, decription:'CÓDIGO DO BANCO E NOME DO BANCO'},
+    {position:'077094', type:dataType.a, decription:'CÓDIGO DO BANCO E NOME DO BANCO'},
     {position:'095100', type:dataType.n, decription:'DATA DA GRAVAÇÃO:DDMMAA'},
     {position:'101107', type:dataType.n, decription:'SEQUENCIAL DA REMESSA'},
     {position:'108129', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
