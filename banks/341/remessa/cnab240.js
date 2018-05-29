@@ -38,13 +38,13 @@ const structure = {
     {position:'040040', type:dataType.a, decription:'DÍGITO VERIFICADOR DA CONTA CORRENTE'},
     {position:'041046', type:dataType.n, decription:'COMPLEMENTO DE REGISTROS:ZEROS'},
     {position:'047076', type:dataType.a, decription:'NOME DO CEDENTE'},
-    {position:'077094', type:dataType.a, decription:'CÓDIGO DO BANCO E NOME DO BANCO'},
+    {position:'077094', type:dataType.n, decription:'CÓDIGO DO BANCO E NOME DO BANCO'},
     {position:'095100', type:dataType.n, decription:'DATA DA GRAVAÇÃO:DDMMAA'},
     {position:'101107', type:dataType.n, decription:'SEQUENCIAL DA REMESSA'},
     {position:'108129', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
     {position:'130136', type:dataType.n, decription:'NÚMERO DO CONVÊNIO'},
     {position:'137394', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
-    {position:'395400', type:dataType.n, decription:'SEQUENCIAL DO REGISTRO'}
+    //{position:'395400', type:dataType.n, decription:'SEQUENCIAL DO REGISTRO'}
   ],
 
   detail:[
@@ -97,13 +97,13 @@ const structure = {
     {position:'352391', type:dataType.a, decription:'OBSERVAÇÕES/MENSAGEM SACADOS/AVALISTA'},
     {position:'392393', type:dataType.a, decription:'NÚMERO DE DIAS PARA PROTESTO'},
     {position:'394394', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},
-    {position:'395400', type:dataType.n, decription:'SEQUENCIAL DO REGISTRO'}
+    //{position:'395400', type:dataType.n, decription:'SEQUENCIAL DO REGISTRO'}
   ],
 
   trailler:[
     {position:'001001', type:dataType.n, description:'IDENTIFICAÇÃO DO REGISTRO TRAILER:"9"'},
     {position:'002394', type:dataType.a, decription:'COMPLEMENTO DO REGISTRO:BRANCOS'},,
-    {position:'395400', type:dataType.n, description:'SEQUENCIAL DO REGISTRO'}
+    //{position:'395400', type:dataType.n, description:'SEQUENCIAL DO REGISTRO'}
   ]
   
 }
