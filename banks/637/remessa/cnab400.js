@@ -29,7 +29,7 @@ const structure = {
     {position:'001001', type:dataType.n, description:'IDENTIFICAÇÃO DO REGISTRO HEADER'},
     {position:'002002', type:dataType.n, description:'IDENTIFICAÇÃO DE ARQUIVO REMESSA'},
     {position:'003009', type:dataType.a, description:'IDENTIFICAÇÃO POR EXTENSO DO TIPO DE MOVIMENTO'},
-    {position:'010011', type:dataType.a, description:'IDENTIFICAÇÃO DO TIPO DE SERVIÇO'},
+    {position:'010011', type:dataType.n, description:'IDENTIFICAÇÃO DO TIPO DE SERVIÇO'},
     {position:'012026', type:dataType.a, description:'IDENTIFICAÇÃO POR EXTENSO TIPO SERVIÇO:"COBRANCA"'},
     {position:'027046', type:dataType.a, description:'IDENTIFICAÇÃO DA EMPRESA NO BANCO'},
     {position:'047076', type:dataType.a, description:'NOME POR EXTENSO DA "EMPRESA MÃE"'},
