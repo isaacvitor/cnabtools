@@ -1,6 +1,6 @@
 {
   "name": "cnabtools",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "This is a colletion of tools for write and read CNAB files",
   "main": "index.js",
   "scripts": {
