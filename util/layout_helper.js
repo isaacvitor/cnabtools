@@ -1,4 +1,5 @@
 const _s = require( 'lodash/string' )
+
 const getSizeByPosition = function(position){
   const i = Number(position.substr(0, 3))
   const f = Number(position.substr(3, 3))
