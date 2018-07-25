@@ -90,7 +90,7 @@ const structure = {
     {position:'315326', type:dataType.a, description:'BAIRRO DO SACADO'},
     {position:'327334', type:dataType.n, description:'CEP DO ENDEREÇO DO SACADO'},
     {position:'335349', type:dataType.a, description:'CIDADE DO SACADO'},
-    {position:'250251', type:dataType.a, description:'UF DO SACADO'},
+    {position:'350351', type:dataType.a, description:'UF DO SACADO'},
     {position:'352391', type:dataType.a, description:'OBSERVAÇÕES/MENSAGEM SACADOS/AVALISTA'},
     {position:'392393', type:dataType.a, description:'NÚMERO DE DIAS PARA PROTESTO'},
     {position:'394394', type:dataType.a, description:'COMPLEMENTO DO REGISTRO:BRANCOS'},
