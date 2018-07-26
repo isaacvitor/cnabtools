@@ -18,7 +18,8 @@ const createContentFile = function(fileConfig, data){
     ? (breakLastLine ) ? breakLine : ''
     : breakLine
 
-    line += _s.padStart(count, sequenceSize, sequenceComplement) + bl
+    //line += _s.padStart(count, sequenceSize, sequenceComplement) + bl
+    line += bl
     count++
     return line
   });
