@@ -1,5 +1,5 @@
 const fs = require('fs')
-const layoutHelpers = require('./util/layout_helper')
+const remessaHelpers = require('./util/remessaHelpers')
 
 // Load banks
 let banks = {};
@@ -10,4 +10,4 @@ for (var i = 0; i < banksFolders.length; i++) {
 }
 
 exports.banks = banks
-exports.layoutHelpers = layoutHelpers
+exports.remessaHelpers = remessaHelpers
