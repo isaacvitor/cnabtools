@@ -22,7 +22,7 @@ exports.properties = {
   sequenceSize:6,
   sequenceComplement:0,
   breakLine:'\r\n',
-  breakLastLine:false,
+  breakLastLine:true,
   encoding:{content:'ascii',file:'ascii'}
 }
 
@@ -30,7 +30,7 @@ exports.header = [
   {position:'001001', type:_dataType.n, description:'IDENTIFICAÇÃO DO REGISTRO HEADER'},
   {position:'002002', type:_dataType.n, description:'TIPO DE OPERAÇAO'},
   {position:'003009', type:_dataType.a, description:'IDENTIFICAÇÃO POR EXTENSO DO MOVIMENTO:"REMESSA"'},
-  {position:'010011', type:_dataType.a, description:'IDENTIFICAÇAO DO TIPO DE SERVIÇO'},
+  {position:'010011', type:_dataType.n, description:'IDENTIFICAÇAO DO TIPO DE SERVIÇO'},
   {position:'012026', type:_dataType.a, description:'IDENTIFICAÇÃO POR EXTENSO TIPO SERVIÇO:"COBRANCA"'},
   {position:'027030', type:_dataType.n, description:'AGÊNCIA MANTENEDORA DA CONTA'},
   {position:'031032', type:_dataType.n, description:'COMPLEMENTO DE REGISTRO'},
